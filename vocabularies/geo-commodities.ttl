@@ -1,4 +1,4 @@
-@prefix cdt: <cdt:https://linked.data.gov.au/def/geo-commodities/> .
+@prefix cdt: <https://linked.data.gov.au/def/geo-commodities/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -12,8 +12,8 @@
 <https://linked.data.gov.au/def/geo-commodities> a owl:Ontology ,
         skos:ConceptScheme ;
     dcterms:created "2020-02-17"^^xsd:date ;
-    dcterms:creator <cdt:https://linked.data.gov.au/org/gsq> ;
-    dcterms:publisher <cdt:https://linked.data.gov.au/org/gsq> ;
+    dcterms:creator <https://linked.data.gov.au/org/gsq> ;
+    dcterms:publisher <https://linked.data.gov.au/org/gsq> ;
     dcterms:modified "2021-11-12"^^xsd:date ;
     dcterms:provenance "CGI Commodity code, adapted and augmented by the Geological Survey of Queensland with information from industry specfic requirements and from the Australian Uniform Code of Nomenclature for Reporting Production of Industrial Minerals by DNREV, 1996" ;
     skos:definition "The types of commodities in geoscience. Commodities have economic signifiance and are separate from host rock, accessory non-economic minerals, or other associated materials that are not commoditised. The commodity vocabulary is hierarchical, to represent each commodity as a member of a commodity category (eg, base metal, precious metal, industrial mineral, energy)."@en ;
@@ -24,7 +24,7 @@
         cdt:sequestered-commodity ;
     skos:prefLabel "Geoscience Commodities"@en .
 
-<cdt:https://linked.data.gov.au/org/gsq>
+<https://linked.data.gov.au/org/gsq>
     a sdo:Organization ;
     sdo:name "Geological Survey of Queensland" ;
     sdo:url "https://www.business.qld.gov.au/industries/mining-energy-water/resources/geoscience-information/gsq"^^xsd:anyURI ;
